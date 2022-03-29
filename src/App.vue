@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Welcome to Notes Management Project"/>
     <Header></Header>
     <InputNote></InputNote>
+    <Note></Note>
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 import Header from '@/components/Header.vue'
 import InputNote from '@/components/InputNote.vue'
+import Note from '@/components/Note.vue'
 
 export default {
   name: 'App',
@@ -18,6 +20,7 @@ export default {
     HelloWorld,
     Header,
     InputNote,
+    Note,
   }
 }
 </script>
