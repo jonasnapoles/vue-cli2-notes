@@ -1,10 +1,11 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+  <div class="container mt-5" id="app">
+    <img alt="Vue logo" src="@/assets/logo.png">
     <HelloWorld msg="Welcome to Notes Management Project"/>
     <Header></Header>
     <InputNote></InputNote>
     <Note></Note>
+    <DetailNote></DetailNote>
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
 import Header from '@/components/Header.vue'
 import InputNote from '@/components/InputNote.vue'
 import Note from '@/components/Note.vue'
+import DetailNote from '@/components/DetailNote.vue'
 
 export default {
   name: 'App',
@@ -21,17 +23,7 @@ export default {
     Header,
     InputNote,
     Note,
+    DetailNote,
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

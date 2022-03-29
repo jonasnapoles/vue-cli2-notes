@@ -1,6 +1,6 @@
 <template>
     <div>
-        <input type="text">
+        <input type="text" class="form-control my-4" />
     </div>
 </template>
 
