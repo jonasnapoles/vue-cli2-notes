@@ -1,6 +1,6 @@
 # Vue Cli 2x Notes
 
-<img alt="Vue logo" src="./assets/logo.png">
+
 
 ## Project setup
 ```
