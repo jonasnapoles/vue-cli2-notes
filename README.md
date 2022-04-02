@@ -1,4 +1,4 @@
-# Vue Cli 2x Notes
+# Vue Cli 2 Notes
 
 
 
